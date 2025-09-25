@@ -35,7 +35,7 @@
     justify-content: space-around;
     height: auto;
     width: auto;
-    border: 1px solid red;
+    border: 0px solid red;
     margin-top: 30px;
     background-color: silver;
 
@@ -48,13 +48,13 @@
     flex-wrap: nowrap;
     height: auto;
     width: auto;
-    border: 1px solid green;
+    border: 0px solid green;
 }
 
 .product{
     height: auto;
     width: auto;
-    border: 1px solid blue;
+    border: 0px solid blue;
     padding: 50px;
     font-size: xx-large;
     font-weight: 900;
@@ -63,7 +63,7 @@
 .product1{
     height: auto;
     width: auto;
-    border: 1px solid yellow;
+    border: 0px solid yellow;
     max-width: 1500px;
 }
 
@@ -74,28 +74,28 @@
     justify-content: space-around;
     height: auto;
     width: 1270px;
-    border: 1px solid red;
+    border: 0px solid red;
     margin-top: 150px;
 }
 
 .services{
     height: auto;
     width: auto;
-    border: 1px solid pink;
+    border: 0px solid pink;
     margin-top: 20px;
 }
 
 .services .program{
     height: auto;
     width: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 20px;
 }
 
 .services .program1{
     height: auto;
     width: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 20px;
 }
 
@@ -103,21 +103,21 @@
 .services1{
     height: auto;
     width: auto;
-    border: 1px solid indigo;
+    border: 0px solid indigo;
     margin-top: 20px;
 }
 
 .services1 .program2{
     height: auto;
     width: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 20px;
 }
 
 .services1 .program3{
     height: auto;
     width: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 20px;
 }
 
@@ -128,24 +128,24 @@
     flex-wrap: wrap;
     height: auto;
     width: 1270px;
-    border: 1px solid red;
+    border: 0px solid red;
     margin-top: 50px;
 }
 
 .services2{
     height: auto;
     width: auto;
-    border: 1px solid pink;
+    border: 0px solid pink;
 }
 
 .services2 .program4{
     height: 300px;
     width: 100%;
     min-width: 260px;
-    max-width: 600px;
+    max-width: 650px;
     box-sizing: border-box;
     margin-bottom: 20px;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 20px;
 }
 
@@ -156,7 +156,7 @@
     max-width: 600px;
     box-sizing: border-box;
     margin-bottom: 20px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 20px;
 }
 
@@ -164,7 +164,7 @@
 .services3{
     height: auto;
     width: auto;
-    border: 1px solid pink;
+    border: 0px solid pink;
 }
 
 .services3 .program6{
@@ -174,7 +174,7 @@
     max-width: 600px;
     box-sizing: border-box;
     margin-bottom: 20px;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 20px;
 }
 
@@ -185,7 +185,7 @@
     max-width: 600px;
     box-sizing: border-box;
     margin-bottom: 20px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 20px;
 }
 
@@ -197,8 +197,8 @@
     justify-content: space-around;
     height: auto;
     width: 1270px;
-    border: 1px solid darkblue;
-    margin-top: 50px;
+    border: 0px solid darkblue;
+    margin-top: 350px;
 }
 
 .services4{
@@ -206,9 +206,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
     height: auto;
     width: auto;
-    border: 1px solid deeppink;
+    border: 0px solid deeppink;
 }
 
 .services5{
@@ -218,7 +219,7 @@
     justify-content: space-around;
     height: auto;
     width: auto;
-    border: 1px solid violet;
+    border: 0px solid violet;
 }
 
 
@@ -230,13 +231,13 @@
     height: auto;
     width: auto;
     max-width: fit-content;
-    border: 1px solid violet;
+    border: 0px solid violet;
 }
 
 .partners .program8{
     height: 100px;
     width: 200px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -244,7 +245,7 @@
 .partners .program9{
     height: 100px;
     width: 200px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -252,7 +253,7 @@
 .partners .program10{
     height: 100px;
     width: 200px;
-    border: 1px solid black;
+    border: 0x solid black;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -260,7 +261,7 @@
 .partners .program11{
     height: 100px;
     width: 200px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -268,7 +269,7 @@
 .partners .program12{
     height: 100px;
     width: 200px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -276,7 +277,7 @@
 .partners .program13{
     height: 100px;
     width: 200px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -284,44 +285,47 @@
 .partners .program14{
     height: 100px;
     width: 200px;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .partners .program15{
     height: 100px;
     width: 200px;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .partners .program16{
     height: 100px;
     width: 200px;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .partners .program17{
     height: 100px;
     width: 200px;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .partners .program18{
     height: 100px;
     width: 200px;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .partners .program19{
     height: 100px;
     width: 200px;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .box6{
     height: auto;
-    width: 1270px;
-    border: 1px solid black;
-    margin-top: 40px;
+    width: 100%;
+    max-width: 1270px;
+    border: 0px solid black;
+    margin: 40px auto 0 auto;
+    box-sizing: border-box;
+    margin-top: 150px;
 }
 
 .aside{
@@ -332,38 +336,97 @@
     height: auto;
     max-width: 1270px;
     width: 100%;
-    border: 1px solid green;
+    border: 0px solid green;
     margin: 0 auto;
     box-sizing: border-box; 
 }
 
 .info{
-    height: 200px;
-    width: 430px;
-    border: 1px solid red;
+    height: 220px;
+    width: 50%;
+    min-width: 220px;
+    max-width: 430px;
+    box-sizing: border-box;
+    border: 0px solid red;
     margin-top: 20px;
+    padding: 40px;
 }
+
+.info .basic{
+    width: 90px;
+    height: 80px;
+    border: 0px solid black;
+    margin-top: -165px;
+    margin-left: 265px;
+}
+
 
 .info1{
-    height: 200px;
-    width: 350px;
-    border: 1px solid yellow;
+    height: 220px;
+    width: 30%;
+    min-width: 220px;
+    max-width: 430px;
+    box-sizing: border-box;
+    border: 0px solid yellow;
     margin-top: 20px;
+    padding: 40px;
 }
+
+.info1 .basic1{
+    width: 90px;
+    height: 80px;
+    border: 0px solid black;
+    margin-top: -190px;
+    margin-left: 250px;
+}
+
 
 .info2{
-    height: 200px;
-    width: 430px;
-    border: 1px solid blue;
+    height: 220px;
+    width: 50%;
+    min-width: 220px;
+    max-width: 430px;
+    box-sizing: border-box;
+    border: 0px solid blue;
     margin-top: 20px;
+    padding: 40px;
 }
 
+.info2 .basic2{
+    width: 90px;
+    height: 80px;
+    border: 0px solid black;
+    margin-top: -165px;
+    margin-left: 265px;
+}
+
+
+/* Responsive: Stack columns on small screens */
+@media (max-width: 900px) {
+    .box6,
+    .aside {
+        max-width: 100%;
+        width: 100%;
+    }
+    .aside {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info,
+    .info1,
+    .info2 {
+        width: 90%;
+        max-width: 400px;
+    }
+}
 
 .box7{
     height: 300px;
-    width: 1310px;
-    border: 1px solid black;
-    margin-top: 200px;
+    width: 100%;
+    max-width: 1310px;
+    border: 0px solid black;
+    margin: 150px auto 0 auto;
+    box-sizing: border-box;
 }
 
 
@@ -372,18 +435,30 @@
     flex-direction: column;
     justify-content: space-around;
     height: 300px;
-    width: 1310px;
-    border: 1px solid green;
+    width: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 0px solid green;
 }
 
 .info3{
+    width: 100%;
+    /* max-width: 1310px; */
     height: 150px;
-    width: 1310px;
-    border: 1px solid blue;
+    text-align: center;
+    border: 0px solid blue;
+    margin: 0 auto 20px auto;
+    box-sizing: border-box;
 }
 
 .info4{
+    width: 100%;
     height: 250px;
-    width: 1310px;
-    border: 1px solid blue;
+    /* max-width: 1310px; */
+    text-align: center;
+    border: 0px solid blue;
+    margin: 0 auto 20px auto;
+    box-sizing: border-box;
 }
+
