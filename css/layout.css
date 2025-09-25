@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-#body{
+.body{
     min-height: 800px;
     border: 8px solid black;
     display: flex;
@@ -25,7 +25,7 @@
     justify-content: space-evenly;
     height: 50px;
     width: 260px;
-    border: 1px solid black;
+    border: 0px solid black;
     font-size: 15pt;
 }
 
@@ -82,13 +82,14 @@
     height: auto;
     width: auto;
     border: 1px solid pink;
-    border-radius: 20px;
+    margin-top: 20px;
 }
 
 .services .program{
     height: auto;
     width: auto;
     border: 1px solid black;
+    border-radius: 20px;
 }
 
 .services .program1{
@@ -103,6 +104,7 @@
     height: auto;
     width: auto;
     border: 1px solid indigo;
+    margin-top: 20px;
 }
 
 .services1 .program2{
@@ -123,55 +125,70 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     height: auto;
-    width: auto;
-    border: 1px solid darkblue;
+    width: 1270px;
+    border: 1px solid red;
     margin-top: 50px;
 }
-
 
 .services2{
     height: auto;
     width: auto;
-    border: 1px solid deeppink;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    border: 1px solid pink;
 }
 
 .services2 .program4{
-    height: auto;
-    width: auto;
+    height: 300px;
+    width: 100%;
+    min-width: 260px;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
     border: 1px solid black;
     border-radius: 20px;
 }
 
 .services2 .program5{
-    height: auto;
-    width: auto;
+    height: 80px;
+    width: 100%;
+    min-width: 260px;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
     border: 1px solid black;
+    margin-top: 20px;
 }
+
 
 .services3{
     height: auto;
     width: auto;
-    border: 1px solid deeppink;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    border: 1px solid pink;
 }
 
 .services3 .program6{
-    height: auto;
-    width: auto;
+    height: 300px;
+    width:100%;
+    min-width: 260px;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
     border: 1px solid black;
+    border-radius: 20px;
 }
 
 .services3 .program7{
-    height: auto;
-    width: auto;
+    height: 80px;
+    width: 100%;
+    min-width: 260px;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
     border: 1px solid black;
+    margin-top: 20px;
 }
+
 
 .box5{
     display: flex;
@@ -179,7 +196,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     height: auto;
-    width: 1310px;
+    width: 1270px;
     border: 1px solid darkblue;
     margin-top: 50px;
 }
@@ -301,37 +318,44 @@
 }
 
 .box6{
-    height: 200px;
-    width: 1310px;
+    height: auto;
+    width: 1270px;
     border: 1px solid black;
-    margin-top: 200px;
+    margin-top: 40px;
 }
 
 .aside{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 200px;
-    width: 1310px;
-    border: 1px solid green; 
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 1270px;
+    width: 100%;
+    border: 1px solid green;
+    margin: 0 auto;
+    box-sizing: border-box; 
 }
 
 .info{
     height: 200px;
     width: 430px;
     border: 1px solid red;
+    margin-top: 20px;
 }
 
 .info1{
     height: 200px;
-    width: 380px;
+    width: 350px;
     border: 1px solid yellow;
+    margin-top: 20px;
 }
 
 .info2{
     height: 200px;
     width: 430px;
     border: 1px solid blue;
+    margin-top: 20px;
 }
 
 
