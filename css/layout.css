@@ -539,3 +539,135 @@
     padding: 30px;
     margin-top: 10px;
 }
+
+
+.card-container1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+}
+
+.box9{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 50px;
+    width: 235px;
+    border: 1px solid black;
+    font-size: 15pt;
+}
+
+.box10{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+
+.services6{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    background-color: lightseagreen;
+}
+
+.services7{
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    margin-top: -38%;
+}
+
+.box11{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    margin-top: 70px;
+}
+
+.program20{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    max-width: 1200px;  /* Optional: limit max width */
+    border: 1px solid black;
+    background-color: white;
+    margin: 0 auto; /* Center the section */
+    box-sizing: border-box;
+    padding: 20px 10px; /* Optional: add padding */
+}
+
+.program20  .services8{
+    width: 48%;
+    min-width: 220px;
+    max-width: 600px;
+    border: 1px solid black;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.program20  .services9{
+    width: 48%;
+    min-width: 220px;
+    max-width: 600px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+/* Responsive: Stack columns on small screens */
+@media (max-width: 900px) {
+    .program20 {
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        max-width: 100%;
+        padding: 10px 0;
+    }
+    .program20 .services8,
+    .program20 .services9 {
+        width: 95%;
+        max-width: 400px;
+        padding: 15px;
+    }
+}
+
+.box12{
+    height: 100px;
+    width: 600px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.box13{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.values{
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.values1{
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
