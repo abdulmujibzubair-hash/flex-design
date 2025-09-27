@@ -540,7 +540,6 @@
     margin-top: 10px;
 }
 
-
 .card-container1{
     display: flex;
     flex-wrap: wrap;
@@ -555,34 +554,34 @@
     flex-direction: row;
     height: 50px;
     width: 235px;
-    border: 1px solid black;
+    border: 0px solid black;
     font-size: 15pt;
 }
 
 .box10{
     height: auto;
     width: auto;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 .services6{
     height: auto;
     width: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     background-color: lightseagreen;
 }
 
 .services7{
     height: 50px;
     width: 250px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: -38%;
 }
 
 .box11{
     height: auto;
     width: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 70px;
 }
 
@@ -594,7 +593,7 @@
     height: auto;
     width: 100%;
     max-width: 1200px;  /* Optional: limit max width */
-    border: 1px solid black;
+    border: 0px solid black;
     background-color: white;
     margin: 0 auto; /* Center the section */
     box-sizing: border-box;
@@ -605,7 +604,7 @@
     width: 48%;
     min-width: 220px;
     max-width: 600px;
-    border: 1px solid black;
+    border: 0px solid black;
     padding: 30px;
     box-sizing: border-box;
     margin-bottom: 20px;
@@ -616,7 +615,7 @@
     min-width: 220px;
     max-width: 600px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-bottom: 20px;
 }
 
@@ -637,37 +636,252 @@
 }
 
 .box12{
+    display: flex;
+    text-align: center;
     height: 100px;
-    width: 600px;
-    border: 1px solid black;
+    width: 1310px;
+    border: 0px solid black;
     margin-top: 50px;
 }
 
 .box13{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     height: auto;
     width: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 50px;
+    max-width: 500px;
+    min-width: 85%;
 }
 
+.item1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    border: 0px solid black;
+}
 .values{
-    height: 300px;
+    height: auto;
     width: 500px;
-    border: 1px solid black;
-    margin-top: 10px;
+    border: 0px solid black;
+    margin-top: 120px;
     margin-left: 20px;
     margin-right: 20px;
+    max-height: 130px;
+    min-height: 20%;
 }
 
 .values1{
     height: 300px;
     width: 500px;
-    border: 1px solid black;
+    border: 0px solid black;
     margin-top: 10px;
     margin-right: 20px;
     margin-left: 20px;
+    border-radius: 20px;
+}
+
+
+.box14{
+    height: auto;
+    width: auto;
+    border: 0px solid black;
+    margin-top: 40px;
+    max-width: 500px;
+    min-width: 85%;
+}
+
+.item2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    border: 0px solid black;
+}
+.values2{
+    height: 300px;
+    width: 500px;
+    border: 0px solid black;
+    margin-top: 10px;
+    background-color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.values3{
+    height: 300px;
+    width: 500px;
+    border: 0px solid black;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 120px;
+    max-height: 130px;
+    min-height: 20%;
+}
+
+
+.box15{
+    height: auto;
+    width: auto;
+    border: 0px solid black;
+    margin-top: 20px;
+    max-width: 500px;
+    min-width: 85%;
+}
+
+.item3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    border: 0px solid black;
+}
+.values4{
+    height: 300px;
+    width: 500px;
+    border: 0px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-height: 130px;
+    min-height: 20%;
+    margin-top: 100px;
+}
+
+.values5{
+    height: 300px;
+    width: 500px;
+    border: 0px solid black;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+
+.box16{
+    height: auto;
+    width: auto;
+    border: 0px solid black;
+    margin-top: 10px;
+    max-width: 500px;
+    min-width: 85%;
+}
+
+.item4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    border: 0px solid black;
+}
+.values6{
+    height: 300px;
+    width: 500px;
+    border: 0px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.values7{
+    height: 300px;
+    width: 500px;
+    border: 0px solid black;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    max-height: 130px;
+    min-height: 20%;
+    margin-top: 100px;
+}
+
+
+.box17{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: darkblue;
+    height: auto;
+    width: 100%;
+    border: 0px solid black;
+    margin-top: 70px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    border: 0px solid red;
+}
+
+.footer1 .foot5{
+    height: 200px;
+    width: 300px;
+    border: 0px solid black;
+}
+
+
+/* Responsive: Stack and expand on small screens */
+@media (max-width: 700px) {
+    .footer1 .foot5 {
+        width: 90%;
+        max-width: 400px;
+        margin: 10px auto;
+        height: auto;
+    }
+}
+
+.footer1 .foot6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    margin-top: 10px;
+    width: auto;
+    border: 0px solid black;
+    color: white;
+    font-size: 30px;
+}
+
+.footer1 .foot7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    border: 0px solid black;
+    font-size: 15px;
+}
+
+.foot7 .foot8{
+    height: 200px;
+    width: auto;
+    border: 0px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.foot7 .foot9{
+    height: 200px;
+    width: auto;
+    border: 0px solid black;
+    padding: 30px;
+    margin-top: 10px;
 }
